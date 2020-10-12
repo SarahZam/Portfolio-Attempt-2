@@ -25,7 +25,7 @@ function ExperienceSection(props) {
                    <h4 className="mt-2">{props.exp.jobtitle}</h4>
                 </Col>
                 <Col md={4} sm={12}>
-                    <h5 className="text-right">{props.exp.date}</h5>
+                    <h5 className="text-md-right">{props.exp.date}</h5>
                 </Col>
             </Row>
             <Row className="mt-2">
