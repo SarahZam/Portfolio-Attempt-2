@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import propic from '../assets/images/propic.jpg';
-import projectpic from '../assets/images/projpic.jpg';
+import projectpic from '../assets/images/git.png';
 import exppic from '../assets/images/exppic.png';
 import {Container,Row,Col} from "react-bootstrap";
 

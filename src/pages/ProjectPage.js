@@ -5,7 +5,7 @@ import ProjectCarousal from "../components/ProjectCarousal";
 function ProjectPage(props) {
     return(
         <div className="mb-5 pb-5">
-            <Hero title={props.title}/>
+            <Hero className="border-bottom" title={props.title}/>
             <ProjectCarousal/>
         </div>
     )

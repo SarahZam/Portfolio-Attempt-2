@@ -39,11 +39,11 @@ code {
 }
 
 .bot{
-  margin-bottom: 8rem;
+  margin-bottom: 7rem;
 }
 
 .typistcolor {
-  color: #667db6 !important;
+  color: #B22222!important;
 }
 
 .card-size{
@@ -53,4 +53,5 @@ code {
 
 .cis{
   height: 280px;
+  width: 348px;
 }

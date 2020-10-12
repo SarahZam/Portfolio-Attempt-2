@@ -4,6 +4,9 @@ import csug from '../assets/images/csug.png';
 import rtc from '../assets/images/rtc.png';
 import conFusion from '../assets/images/confusion.png';
 import khichuri from '../assets/images/khichuri.jpg';
+import pipboy from '../assets/images/pipboy.png';
+import ProjectCards from "./ProjectCards";
+import Carousel from "react-elastic-carousel";
 
 const webs = [
     {
@@ -33,7 +36,7 @@ const webs = [
         title: 'ConFusion',
         language: 'ReactJS, Node.js, Express, MongoDB',
         img: conFusion,
-        description: 'Made a demo restaurant website to practice reactJS. Implemented controlled and uncontrolled forms and programmed the backend of it',
+        description: 'Made a demo restaurant website to practice reactJS. First Full-Stack project!',
         link: 'Coming Soon'
     },
     {
@@ -55,6 +58,25 @@ const webs = [
 ]
 
 function WebProjects() {
+
+    const makeWebs = (webs) => {
+        return webs.map(web => {
+            return <ProjectCards game={web} key={web.id} />
+        })
+    }
+
+    const breakPoints = [
+        {width: 500, itemsToShow: 1},
+        {width: 768, itemsToShow: 2},
+        {width: 1200, itemsToShow: 3},
+        {width: 1500, itemsToShow: 4}
+    ];
+
+    return(
+        <Carousel className="" breakPoints={breakPoints}>
+            {makeWebs(webs)}
+        </Carousel>
+    )
 
 }
 

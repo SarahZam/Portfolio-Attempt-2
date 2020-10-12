@@ -45,26 +45,29 @@ class App extends React.Component {
     return (
         <Router>
           <Container className="p-0" fluid={true}>
+            <div className="wrapper">
+              <Navbar className="" expand="lg">
+                <NavbarBrand> <Link className="nav-link text-dark" to="/">Sarah Zaman</Link></NavbarBrand>
 
-            <Navbar className="border-bottom navbg" expand="lg">
-              <NavbarBrand> <Link className="nav-link text-dark" to="/">Sarah Zaman</Link></NavbarBrand>
+                <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
+                <Navbar.Collapse id="navbar-toggle">
+                  <Nav className="ml-auto">
+                    <Link className="nav-link" to="/about">About Me</Link>
+                    <Link className="nav-link" to="/experience">Experience</Link>
+                    <Link className="nav-link" to="/projects">Projects</Link>
+                  </Nav>
+                </Navbar.Collapse>
+              </Navbar>
 
-              <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
-              <Navbar.Collapse id="navbar-toggle">
-                <Nav className="ml-auto">
-                  <Link className="nav-link" to="/about">About Me</Link>
-                  <Link className="nav-link" to="/experience">Experience</Link>
-                  <Link className="nav-link" to="/projects">Projects</Link>
-                </Nav>
-              </Navbar.Collapse>
-            </Navbar>
+              <Route path="/" exact render={()=> <HomePage title={this.state.home.title} subTitle={this.state.home.subTile} text={this.state.home.text}/>}/>
+              <Route path="/about" render={()=> <AboutPage title={this.state.about.title} />}/>
+              <Route path="/experience" render={()=> <ExperiencePage title={this.state.experience.title} />}/>
+              <Route path="/projects" render={()=> <ProjectPage title={this.state.projects.title} />}/>
 
-            <Route path="/" exact render={()=> <HomePage title={this.state.home.title} subTitle={this.state.home.subTile} text={this.state.home.text}/>}/>
-            <Route path="/about" render={()=> <AboutPage title={this.state.about.title} />}/>
-            <Route path="/experience" render={()=> <ExperiencePage title={this.state.experience.title} />}/>
-            <Route path="/projects" render={()=> <ProjectPage title={this.state.projects.title} />}/>
+            </div>
 
-            <Footer/>
+
+            <Footer />
 
           </Container>
         </Router>
