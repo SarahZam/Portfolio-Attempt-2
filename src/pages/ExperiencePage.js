@@ -1,8 +1,13 @@
 import React from 'react';
+import {Container,Row, Col} from "react-bootstrap";
+import Hero from "../components/Hero";
 
 function ExperiencePage(props) {
     return(
-        <p>HomePage Works</p>
+        <div>
+            <Hero title={props.title}/>
+        </div>
+
     )
 }
 

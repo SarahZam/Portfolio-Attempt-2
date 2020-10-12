@@ -1,8 +1,13 @@
 import React from 'react';
+import Hero from "../components/Hero";
+import ProjectCarousal from "../components/ProjectCarousal";
 
 function ProjectPage(props) {
     return(
-        <p>HomePage Works</p>
+        <div className="mb-5 pb-5">
+            <Hero title={props.title}/>
+            <ProjectCarousal/>
+        </div>
     )
 }
 

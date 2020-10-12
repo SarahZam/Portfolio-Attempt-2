@@ -26,18 +26,17 @@ class App extends React.Component {
         {title: 'Projects', path: '/projects'}
       ],
       home: {
-        title: 'Hi, I\'m Sarah.',
-        subTile: 'Projects that make a difference',
-        text: 'Checkout my projects below'
+        title: 'Hi, I\'m Sarah',
+        subTile: 'I\'m '
       },
       about: {
-        title: 'Get to know me a little better'
+        title: 'About Me'
       },
       projects: {
-        title: 'Catch a glimpse of what I\'ll bring to your team'
+        title: 'My Projects'
       },
       experience: {
-        title: 'My Work Experience'
+        title: 'Experience'
       }
     }
   }
@@ -63,7 +62,7 @@ class App extends React.Component {
             <Route path="/" exact render={()=> <HomePage title={this.state.home.title} subTitle={this.state.home.subTile} text={this.state.home.text}/>}/>
             <Route path="/about" render={()=> <AboutPage title={this.state.about.title} />}/>
             <Route path="/experience" render={()=> <ExperiencePage title={this.state.experience.title} />}/>
-            <Route path="/project" render={()=> <ProjectPage title={this.state.projects.title} />}/>
+            <Route path="/projects" render={()=> <ProjectPage title={this.state.projects.title} />}/>
 
             <Footer/>
 
