@@ -49,7 +49,7 @@ const exps = [
         company: 'University of Rochester, Human-Computer Interaction Lab',
         img: hci,
         jobtitle: 'Research Assistant',
-        date: 'August 2020 - Current',
+        date: 'October 2019 - May 2020',
         description:[
             'Analyzed statistical data using pandas framework and features extracted from audio-visual files by software such as openSMILE and openEAR in order to distinguish good and bad debate practices.',
             'Collaborated with a team of 3 to collect and annotate over 400 audio-visual files',

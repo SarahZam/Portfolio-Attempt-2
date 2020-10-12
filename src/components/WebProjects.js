@@ -14,7 +14,7 @@ const webs = [
         title: 'Yolo Shadow',
         img: yolo,
         language: 'ReactJS, Figma, Node.js, MongoDB',
-        description: 'Website I made as a Software Engineer Intern for Yolo Shadow',
+        description: 'Website I made as a Software Engineering Intern for Yolo Shadow',
         link: 'http://yoloshadow.com/'
     },
     {
@@ -22,14 +22,14 @@ const webs = [
         title: 'CSUG Website',
         language: 'ReactJS',
         img: csug,
-        description: 'Website I am currently making for my University\'s Computer Science Undergraduate Council'
+        description: 'Currently designing a website for my University\'s Computer Science Undergraduate Council'
     },
     {
         id: 2,
         title: 'RTC Referral Portal',
         language: 'ReactJS, Figma, JavaScript, HTML, CSS',
         img: rtc,
-        description: 'Making the frontend of a Referral Portal for members of Women of Rewriting the Code that authenticates the user accessing it'
+        description: 'Designing and programming frontend of a Referral Portal for members of Women of Rewriting the Code'
     },
     {
         id: 3,
@@ -37,15 +37,15 @@ const webs = [
         language: 'ReactJS, Node.js, Express, MongoDB',
         img: conFusion,
         description: 'Made a demo restaurant website to practice reactJS. First Full-Stack project!',
-        link: 'Coming Soon'
+        link: 'https://github.com/SarahZam/React-Website-Demo'
     },
     {
         id: 4,
         title: 'Khichuri',
         language: 'Flask, Jinja2, HTML, CSS, Bootstrap',
         img: khichuri,
-        description: 'Decorated a website to look like pipboy\'s after teaching myself basics of bootstrap',
-        link:'Coming soon'
+        description: 'Made a website for my favourite Khichuri Recipe. You can view ingredients and steps one by one.',
+        link:'http://szaman.digitalscholar.rochester.edu/assignment07'
     },
     {
         id: 5,
@@ -53,7 +53,7 @@ const webs = [
         language: 'HTML, CSS, Bootstrap',
         img: pipboy,
         description: 'Decorated a website to look like pipboy\'s after teaching myself basics of bootstrap',
-        link:'Coming soon'
+        link:'https://github.com/SarahZam/PipBoy'
     }
 ]
 
