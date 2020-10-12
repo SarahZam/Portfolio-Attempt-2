@@ -19,7 +19,7 @@ class App extends React.Component {
     this.state = {
       title: 'Sarah Zaman',
       headerLinks: [
-        {title: 'Home', path: '/my-portfolio'},
+        {title: 'Home', path: '/'},
         {title: 'About', path: '/about'},
         {title: 'Experience', path: '/experience'},
         {title: 'Projects', path: '/projects'}
@@ -58,7 +58,7 @@ class App extends React.Component {
                 </Navbar.Collapse>
               </Navbar>
 
-              <Route path="/my-portfolio" exact render={()=> <HomePage title={this.state.home.title} subTitle={this.state.home.subTile} text={this.state.home.text}/>}/>
+              <Route path="/" exact render={()=> <HomePage title={this.state.home.title} subTitle={this.state.home.subTile} text={this.state.home.text}/>}/>
               <Route path="/about" render={()=> <AboutPage title={this.state.about.title} />}/>
               <Route path="/experience" render={()=> <ExperiencePage title={this.state.experience.title} />}/>
               <Route path="/projects" render={()=> <ProjectPage title={this.state.projects.title} />}/>
