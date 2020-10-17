@@ -16,9 +16,9 @@ const exps = [
         jobtitle: 'Software Engineering Intern',
         date: 'September 2020 - Current',
         description: [
-                'I collaborated in a team of 3 to design front-end of the company website using ReactJS, Redux, and Bootstrap.',
-                'I designed and programmed a dashboard option for specific users.',
-                'I developed web structures and cascading sheets in MERN stack.'
+                'Collaborated with team members to develop and deploy a cross-platform service built with ReactJS, Node.js, Express, and MongoDB (MERN stack) that allows users to log in, access personalized dashboards, book appointments, access application forms, and review information and updates.',
+                'Collaborated with UI/UX designer to implement user-centered design making the platform accessible and easy to use.',
+                'Collaborated with backend team to help create REST APIs for data storage and editing.'
 
         ]
     },
@@ -52,9 +52,9 @@ const exps = [
         date: 'October 2019 - May 2020',
         description:[
             'Analyzed statistical data using pandas framework and features extracted from audio-visual files by software such as openSMILE and openEAR in order to distinguish good and bad debate practices.',
-            'Collaborated with a team of 3 to collect and annotate over 400 audio-visual files',
-            'Used Python libraries such as Pandas, Matplotlib, and NumPy to analyze the data gathered by the annotation of the transcripts. Graphed the numerical results using Excel and presented the statistical findings with PowerPoint.',
-            'Co-designed and deployed the temporary website for outreach of participants using HTML, CSS and JavaScript'
+            'Collaborated with a team of 3 to collect and annotate over 400 audio-visual files and used Python Libraries such as Pandas, Matplotlib, and NumPy to analyze the data.',
+            'Graphed the numerical results using Excel and presented the statistical findings with PowerPoint.',
+            'Co-designed and deployed the temporary website for outreach of participants using HTML, CSS and JavaScript.'
         ]
     }
 
