@@ -24,17 +24,6 @@ const exps = [
     },
     {
         id: 1,
-        company: 'University of Rochester, Computer Science Undergraduate Council',
-        img: csug,
-        jobtitle: 'Web Developer',
-        date: 'October 2020 - Current',
-        description:[
-            'Leading a team to design an interactive website for our Computer Science Undergraduate Council.',
-            'Coding in HTML, CSS, JavaScript, and ReactJS and ensuring mobile-first strategy. '
-            ]
-    },
-    {
-        id: 2,
         company: 'University of Rochester, Computer Science Department',
         img: cs,
         jobtitle: 'Workshop Leader',
@@ -45,7 +34,7 @@ const exps = [
         ]
     },
     {
-        id: 3,
+        id: 2,
         company: 'University of Rochester, Human-Computer Interaction Lab',
         img: hci,
         jobtitle: 'Research Assistant',
